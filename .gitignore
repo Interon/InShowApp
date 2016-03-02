@@ -1,0 +1,20 @@
+# Specifies intentionally untracked files to ignore when using Git
+# http://git-scm.com/docs/gitignore
+
+node_modules/
+resources/
+platforms/
+plugins/
+src/lib/
+
+_*
+.DS_STORE
+.idea
+*.swp
+
+# EXCLUDE BUILD ARTIFACTS:
+src/index.html
+src/css/ionic.app.css
+src/css/ionic.app.min.css
+src/js/config/config.js
+npm-debug.log
